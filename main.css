@@ -2,7 +2,7 @@ body {
     font-family: monospace;
     display: flex;
     justify-content: center;
-    background-color: ;
+  
 }
 .card_container {
     width: 350px;
@@ -14,7 +14,7 @@ body {
 }
 .profile_img{
     position: relative;
-    width: 100%;
+    height: 100%;
     height: 350px;
     background-image: url('assent/En.jpg');
     background-repeat: no-repeat;
@@ -96,6 +96,54 @@ h3{
 .text_btn:hover{
     background-color:white;
 }
+
+.foot{
+    padding:20px;
+    background-color: red;
+    position:relative;
+    top:47px;
+    margin-left:-20px;
+    margin-right:-20px;
+    -webkit-mask-image: linear-gradient(to bottom , transparent 10%, red 100%);
+
+}
+.box1{   
+    padding:3px;
+    position: relative;
+    background-color:red;
+    width: 2px;
+    height:373px;
+    right:20px;
+    top:-332px;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 10%, red 100%);
+            
+}
+.box2{   
+    padding:3px;
+    position: relative;
+    background-color:red;
+    width: 2px;
+    height:373px;
+    left:322px;
+    top:-711px;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 10%, red 100%);
+    border-radius:10px;
+            
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
